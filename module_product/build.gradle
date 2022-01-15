@@ -18,6 +18,12 @@ android {
             applicationId "com.example.componentpracticed.product"
         }
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -52,4 +58,6 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    api project(':module_common')
+    annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
 }

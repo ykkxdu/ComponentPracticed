@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/home_activity.xml" value="0.12708333333333333" />
         <entry key="module_cart/src/main/res/layout/activity_main.xml" value="0.14387031408308004" />
         <entry key="module_common/src/main/res/layout/activity_base.xml" value="0.26721014492753625" />
         <entry key="module_product/src/main/res/layout/activity_product.xml" value="0.26721014492753625" />

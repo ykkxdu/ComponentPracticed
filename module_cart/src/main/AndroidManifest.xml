@@ -3,7 +3,10 @@
     package="com.example.module_cart">
 
     <application>
-        <activity android:name=".CartActivity"></activity>
+        <activity
+            android:name=".CartActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
